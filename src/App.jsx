@@ -46,10 +46,7 @@ const App = () => {
 
         : `${API_BASE_URL}/discover/movie?sort_by=popularity.desc`;
 
-      console.log("TMDB API_KEY:", API_KEY);
-      console.log("Fetch URL:", endpoint);
-      console.log("API_OPTIONS:", API_OPTIONS);
-
+      
 
       const response = await fetch(endpoint, API_OPTIONS);
 
